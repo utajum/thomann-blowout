@@ -22,7 +22,7 @@ export const transformToHTML = (products) => {
     .map((product) => {
       return /*html*/ `
         <tr>
-          <td>${product.name}</td>
+          <td>${product.name.toLowerCase().includes('behringer') ? `<strong>${product.name}</strong>` : product.name}</td>
           <td><strong>${product.currency} ${product.price}</strong></td>
           <td>${product.isAvailable ? 'Yes' : 'No'}</td>
           <td>${product.isBstock ? 'Yes' : 'No'}</td>

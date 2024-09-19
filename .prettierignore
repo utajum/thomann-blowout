@@ -1,0 +1,6 @@
+# .prettierignore
+.gitignore
+.gitattributes
+
+package-lock.json
+yarn.lock

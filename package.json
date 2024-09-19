@@ -26,7 +26,6 @@
     "agentkeepalive": "4.5.0",
     "axios": "1.7.7",
     "dotenv": "16.4.5",
-    "fast-xml-parser": "4.5.0",
     "nodemailer": "6.9.15",
     "prettier": "3.3.3",
     "retry-axios": "3.1.3"
